@@ -17,7 +17,11 @@ typedef enum
 	CellTypeUnknown
 } CellType;
 
-@interface CellView : UIView
+@interface Cell : UIView
+
+- (id)initWithPosition:(CGPoint)pos;
+
+@property (nonatomic, readwrite) CGPoint position;
 
 @property (nonatomic, readwrite) int type;
 

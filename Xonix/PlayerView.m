@@ -24,9 +24,15 @@
 
 -(void)commonInitialization
 {
-	self.backgroundColor = [UIColor redColor];
+	self.backgroundColor = [UIColor clearColor];
 	
 	self.forcedDirection = NO;
+	
+	imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"orangeBall.png"]];
+	
+	imageView.frame = CGRectMake(-self.frame.size.width / 2, -self.frame.size.height / 2, self.frame.size.width * 2, self.frame.size.height * 2);
+	
+	[self addSubview:imageView];
 }
 
 -(void)move

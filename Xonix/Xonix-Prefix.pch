@@ -11,4 +11,22 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+	#import "AppDelegate.h"
 #endif
+
+#define appDelegate ((AppDelegate*)[[UIApplication sharedApplication] delegate])
+#define defaults	[NSUserDefaults standardUserDefaults]
+
+#define RGB(r, g, b)                        [UIColor colorWithRed:(r)/255.f green:(g)/255.f blue:(b)/255.f alpha:1.f]
+#define RGBA(r, g, b, a)                    [UIColor colorWithRed:(r)/255.f green:(g)/255.f blue:(b)/255.f alpha:a / 1.f]
+
+#define IS_IPHONE5 (([[UIScreen mainScreen] bounds].size.height-568)?NO:YES)
+#define IS_OS_5_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 5.0)
+#define IS_OS_6_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 6.0)
+#define IS_OS_7_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
+
+#define DOCUMENTS_PATH NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)
+#define DOCUMENTS ((NSString*)([DOCUMENTS_PATH count] > 0 ? [DOCUMENTS_PATH objectAtIndex:0] : nil))
+#define TEMP NSTemporaryDirectory()
+
+#define FILE_MANAGER [NSFileManager defaultManager]

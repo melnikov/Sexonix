@@ -16,7 +16,10 @@ typedef enum
 	DirectionLeft
 }Direction;
 
-@interface PlayerView : UIView
+@interface PlayerView : UIImageView
+{
+	UIImageView * imageView;
+}
 
 @property (nonatomic, readwrite) Direction direction;
 

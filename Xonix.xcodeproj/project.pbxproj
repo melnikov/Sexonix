@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84A9CDD11977E3A500CB1034 /* CellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9CDD01977E3A500CB1034 /* CellView.m */; };
+		845C44DB197FCDE00039D511 /* blueBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 845C44D2197FCDE00039D511 /* blueBall.png */; };
+		845C44DC197FCDE00039D511 /* greenBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 845C44D3197FCDE00039D511 /* greenBall.png */; };
+		845C44DD197FCDE00039D511 /* Nature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 845C44D4197FCDE00039D511 /* Nature.jpg */; };
+		845C44DE197FCDE00039D511 /* orangeBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 845C44D5197FCDE00039D511 /* orangeBall.png */; };
+		845C44DF197FCDE00039D511 /* redBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 845C44D6197FCDE00039D511 /* redBall.png */; };
+		845C44E1197FCDE00039D511 /* seamlesstexture_metallic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 845C44D8197FCDE00039D511 /* seamlesstexture_metallic.jpg */; };
+		845C44E2197FCDE00039D511 /* yellowBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 845C44D9197FCDE00039D511 /* yellowBall.png */; };
+		84A9CDD11977E3A500CB1034 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9CDD01977E3A500CB1034 /* Cell.m */; };
 		84A9CDD51977E47300CB1034 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9CDD31977E47300CB1034 /* GameViewController.m */; };
 		84A9CDD61977E47300CB1034 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A9CDD41977E47300CB1034 /* GameViewController.xib */; };
-		84A9CE171977E4B900CB1034 /* seamlesstexture_darklights.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A9CDF61977E4B900CB1034 /* seamlesstexture_darklights.jpg */; };
-		84A9CE191977E4B900CB1034 /* seamlesstexture_metallic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A9CDF81977E4B900CB1034 /* seamlesstexture_metallic.jpg */; };
-		84A9CE1D1977ED9700CB1034 /* NSMutableArray+NullInt.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9CE1C1977ED9700CB1034 /* NSMutableArray+NullInt.m */; };
 		84A9CE201977F42F00CB1034 /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9CE1F1977F42F00CB1034 /* PlayerView.m */; };
+		84AA2308197D163A0063D928 /* EnemyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA2307197D163A0063D928 /* EnemyView.m */; };
+		84AA230A197D68350063D928 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AA2309197D68350063D928 /* QuartzCore.framework */; };
 		FAD8FF3E17743856006D87A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD8FF3D17743856006D87A4 /* UIKit.framework */; };
 		FAD8FF4017743856006D87A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD8FF3F17743856006D87A4 /* Foundation.framework */; };
 		FAD8FF4217743856006D87A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD8FF4117743856006D87A4 /* CoreGraphics.framework */; };
@@ -26,17 +32,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		84A9CDCF1977E3A500CB1034 /* CellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellView.h; sourceTree = "<group>"; };
-		84A9CDD01977E3A500CB1034 /* CellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellView.m; sourceTree = "<group>"; };
+		845C44D2197FCDE00039D511 /* blueBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueBall.png; sourceTree = "<group>"; };
+		845C44D3197FCDE00039D511 /* greenBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenBall.png; sourceTree = "<group>"; };
+		845C44D4197FCDE00039D511 /* Nature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nature.jpg; sourceTree = "<group>"; };
+		845C44D5197FCDE00039D511 /* orangeBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeBall.png; sourceTree = "<group>"; };
+		845C44D6197FCDE00039D511 /* redBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redBall.png; sourceTree = "<group>"; };
+		845C44D8197FCDE00039D511 /* seamlesstexture_metallic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seamlesstexture_metallic.jpg; sourceTree = "<group>"; };
+		845C44D9197FCDE00039D511 /* yellowBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowBall.png; sourceTree = "<group>"; };
+		84A9CDCF1977E3A500CB1034 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		84A9CDD01977E3A500CB1034 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
 		84A9CDD21977E47300CB1034 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		84A9CDD31977E47300CB1034 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		84A9CDD41977E47300CB1034 /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
-		84A9CDF61977E4B900CB1034 /* seamlesstexture_darklights.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seamlesstexture_darklights.jpg; sourceTree = "<group>"; };
-		84A9CDF81977E4B900CB1034 /* seamlesstexture_metallic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seamlesstexture_metallic.jpg; sourceTree = "<group>"; };
-		84A9CE1B1977ED9700CB1034 /* NSMutableArray+NullInt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+NullInt.h"; sourceTree = "<group>"; };
-		84A9CE1C1977ED9700CB1034 /* NSMutableArray+NullInt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+NullInt.m"; sourceTree = "<group>"; };
 		84A9CE1E1977F42F00CB1034 /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
 		84A9CE1F1977F42F00CB1034 /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
+		84AA2306197D163A0063D928 /* EnemyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnemyView.h; sourceTree = "<group>"; };
+		84AA2307197D163A0063D928 /* EnemyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnemyView.m; sourceTree = "<group>"; };
+		84AA2309197D68350063D928 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FAD8FF3917743856006D87A4 /* Xonix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xonix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD8FF3D17743856006D87A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FAD8FF3F17743856006D87A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AA230A197D68350063D928 /* QuartzCore.framework in Frameworks */,
 				FAD8FF3E17743856006D87A4 /* UIKit.framework in Frameworks */,
 				FAD8FF4017743856006D87A4 /* Foundation.framework in Frameworks */,
 				FAD8FF4217743856006D87A4 /* CoreGraphics.framework in Frameworks */,
@@ -66,13 +79,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		84A9CDD71977E4B900CB1034 /* Photos */ = {
+		845C44D0197FCDE00039D511 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				84A9CDF61977E4B900CB1034 /* seamlesstexture_darklights.jpg */,
-				84A9CDF81977E4B900CB1034 /* seamlesstexture_metallic.jpg */,
+				845C44D2197FCDE00039D511 /* blueBall.png */,
+				845C44D3197FCDE00039D511 /* greenBall.png */,
+				845C44D5197FCDE00039D511 /* orangeBall.png */,
+				845C44D6197FCDE00039D511 /* redBall.png */,
+				845C44D9197FCDE00039D511 /* yellowBall.png */,
+				845C44D8197FCDE00039D511 /* seamlesstexture_metallic.jpg */,
+				845C44D4197FCDE00039D511 /* Nature.jpg */,
 			);
-			path = Photos;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		FAD8FF2E17743856006D87A4 = {
@@ -95,6 +113,7 @@
 		FAD8FF3C17743856006D87A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84AA2309197D68350063D928 /* QuartzCore.framework */,
 				FAD8FF3D17743856006D87A4 /* UIKit.framework */,
 				FAD8FF3F17743856006D87A4 /* Foundation.framework */,
 				FAD8FF4117743856006D87A4 /* CoreGraphics.framework */,
@@ -105,15 +124,15 @@
 		FAD8FF4317743856006D87A4 /* Xonix */ = {
 			isa = PBXGroup;
 			children = (
-				84A9CDD71977E4B900CB1034 /* Photos */,
+				845C44D0197FCDE00039D511 /* Assets */,
 				FAD8FF4C17743856006D87A4 /* AppDelegate.h */,
 				FAD8FF4D17743856006D87A4 /* AppDelegate.m */,
-				84A9CE1B1977ED9700CB1034 /* NSMutableArray+NullInt.h */,
-				84A9CE1C1977ED9700CB1034 /* NSMutableArray+NullInt.m */,
-				84A9CDCF1977E3A500CB1034 /* CellView.h */,
-				84A9CDD01977E3A500CB1034 /* CellView.m */,
+				84A9CDCF1977E3A500CB1034 /* Cell.h */,
+				84A9CDD01977E3A500CB1034 /* Cell.m */,
 				84A9CE1E1977F42F00CB1034 /* PlayerView.h */,
 				84A9CE1F1977F42F00CB1034 /* PlayerView.m */,
+				84AA2306197D163A0063D928 /* EnemyView.h */,
+				84AA2307197D163A0063D928 /* EnemyView.m */,
 				84A9CDD21977E47300CB1034 /* GameViewController.h */,
 				84A9CDD31977E47300CB1034 /* GameViewController.m */,
 				84A9CDD41977E47300CB1034 /* GameViewController.xib */,
@@ -187,13 +206,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A9CE171977E4B900CB1034 /* seamlesstexture_darklights.jpg in Resources */,
 				FAD8FF4817743856006D87A4 /* InfoPlist.strings in Resources */,
 				FAD8FF5017743856006D87A4 /* Default.png in Resources */,
 				FAD8FF5217743856006D87A4 /* Default@2x.png in Resources */,
-				84A9CE191977E4B900CB1034 /* seamlesstexture_metallic.jpg in Resources */,
+				845C44E2197FCDE00039D511 /* yellowBall.png in Resources */,
+				845C44E1197FCDE00039D511 /* seamlesstexture_metallic.jpg in Resources */,
+				845C44DC197FCDE00039D511 /* greenBall.png in Resources */,
 				FAD8FF5417743856006D87A4 /* Default-568h@2x.png in Resources */,
 				84A9CDD61977E47300CB1034 /* GameViewController.xib in Resources */,
+				845C44DD197FCDE00039D511 /* Nature.jpg in Resources */,
+				845C44DF197FCDE00039D511 /* redBall.png in Resources */,
+				845C44DE197FCDE00039D511 /* orangeBall.png in Resources */,
+				845C44DB197FCDE00039D511 /* blueBall.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,9 +230,9 @@
 			files = (
 				FAD8FF4A17743856006D87A4 /* main.m in Sources */,
 				FAD8FF4E17743856006D87A4 /* AppDelegate.m in Sources */,
+				84AA2308197D163A0063D928 /* EnemyView.m in Sources */,
 				84A9CDD51977E47300CB1034 /* GameViewController.m in Sources */,
-				84A9CDD11977E3A500CB1034 /* CellView.m in Sources */,
-				84A9CE1D1977ED9700CB1034 /* NSMutableArray+NullInt.m in Sources */,
+				84A9CDD11977E3A500CB1034 /* Cell.m in Sources */,
 				84A9CE201977F42F00CB1034 /* PlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +309,12 @@
 				GCC_PREFIX_HEADER = "Xonix/Xonix-Prefix.pch";
 				INFOPLIST_FILE = "Xonix/Xonix-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Xonix",
+					"$(PROJECT_DIR)/Xonix/Chartboost",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s";
@@ -299,6 +329,12 @@
 				GCC_PREFIX_HEADER = "Xonix/Xonix-Prefix.pch";
 				INFOPLIST_FILE = "Xonix/Xonix-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Xonix",
+					"$(PROJECT_DIR)/Xonix/Chartboost",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s";
